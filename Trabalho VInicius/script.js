@@ -18,7 +18,6 @@ boxes.forEach(box => {
         modalImg.src = img;
         modalDesc.textContent = desc;
 
-        // Limpa e insere os gêneros formatados em tags
         modalGenres.innerHTML = '';
         genres.forEach(genre => {
             const tag = document.createElement('span');
